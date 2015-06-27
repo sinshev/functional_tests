@@ -5,7 +5,6 @@
 import requests
 import sys
 import os
-from task_parser import ResponseParser
 
 if __name__ == '__main__':
     sys.path.append(os.path.dirname(__file__) + '/../')
@@ -13,6 +12,7 @@ if __name__ == '__main__':
 from config import API_URL, TASK_TAIL, TASKS_TAIL
 from config import DEFAULT_PASSWORD as PASSWORD
 from config import DEFAULT_USERNAME as USERNAME
+from api_functional_tests.core.task_parser import ResponseParser
 
 
 

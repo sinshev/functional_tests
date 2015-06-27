@@ -1,5 +1,5 @@
 import json
-from task_model import Task
+from api_functional_tests.core.task_model import Task
 
 class ResponseParser:
 
