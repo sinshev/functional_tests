@@ -29,6 +29,9 @@ class TestGetMethod:
           assert actual_task.title == expected_title, 'Invalid title'
           # assert 0
 
+    def test_ololo(self):
+        pass
+
 
 
 if __name__ == '__main__':
